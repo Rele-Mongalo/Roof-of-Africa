@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+}
+
+
+header {
+	background: #0006400;
+	color: white;
+	padding: 1em;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1em;
+	padding: 0;
+	margin: 0;
+	justify-content: center; /*centers the menu*/
+}
+
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0.5em 1em;
+	transition: background 0.3s;
+}
+
+
+nav a:hover {
+	background: #004d00; /*darkens on hover*/
+	border-radius: 4px;
+}
+
+.banner {
+	background: url('roofofafrica.jpg') no-repeat center/cover;
+	color: white;
+	text-align: center;
+	padding: 4em 1em;
+}
+
+.banner h1, .banner p {
+	color: white;
+}
+
+h1, h2 {
+	color: #333;
+}
+
+
+table, th, td {
+	border: 1px solid black;
+	padding: 0.5em;
+	text-align: center;
+}
+
+footer {
+	background: #006400;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+
+/*Form styling*/
+input[type="text"], input[type="email"] {
+	width: 80%;
+	padding:
